@@ -1,0 +1,17 @@
+---
+swagger: "2.0"
+info:
+  description: "Initial Draft Of Emplyee Services Contract"
+  version: "1.0.0"
+  title: "Swagger Maven Plugin :Employee Demo"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "localhost"
+basePath: "/api"
+tags:
+- name: "EmployeeService"
+  description: "The Employee Service API"
+schemes:
+- "http"
+- "https"
