@@ -1,0 +1,23 @@
+2019-07-28T22:56:01.575+0530 INFO 		*****--------------------*****
+2019-07-28T22:56:20.704+0530 INFO 		*****--------------------*****
+2019-07-28T22:56:20.705+0530 INFO 		Logging Before For Controller API:-deleteEmployeeDetails
+2019-07-28T22:56:20.705+0530 INFO 		Loggging Arguements:-[8]
+2019-07-28T22:56:23.706+0530 INFO        *****--------------------*****
+2019-07-28T22:56:23.725+0530 INFO 		Logging Before For Service API:-deleteEmployeeDetails
+2019-07-28T22:56:23.743+0530 INFO 		Loggging Arguements:-[8]
+2019-07-28T22:57:16.347+0530 INFO 		Logging After For Service API:-deleteEmployeeDetails
+2019-07-28T22:57:16.349+0530 INFO        *****--------------------*****
+2019-07-28T22:57:16.351+0530 INFO        Total Execution Time For API(measure:-55secs)
+2019-07-28T22:57:16.354+0530 INFO 		Logging After For Controller API:-deleteEmployeeDetails
+2019-07-28T22:57:16.355+0530 INFO 		*****--------------------*****
+2019-07-28T22:57:39.033+0530 INFO 		*****--------------------*****
+2019-07-28T22:57:39.033+0530 INFO 		Logging Before For Controller API:-getAllEmployeeDetails
+2019-07-28T22:57:39.033+0530 INFO 		Loggging Arguements:-[]
+2019-07-28T22:57:39.034+0530 INFO        *****--------------------*****
+2019-07-28T22:57:39.034+0530 INFO 		Logging Before For Service API:-getAllEmployeeDetails
+2019-07-28T22:57:39.034+0530 INFO 		Loggging Arguements:-[]
+2019-07-28T22:57:41.316+0530 INFO 		Logging After For Service API:-getAllEmployeeDetails
+2019-07-28T22:57:41.317+0530 INFO        *****--------------------*****
+2019-07-28T22:57:41.318+0530 INFO        Total Execution Time For API(measure:-2secs)
+2019-07-28T22:57:41.319+0530 INFO 		Logging After For Controller API:-getAllEmployeeDetails
+2019-07-28T22:57:41.319+0530 INFO 		*****--------------------*****

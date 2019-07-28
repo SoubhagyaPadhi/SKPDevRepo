@@ -5,7 +5,8 @@ package com.skp.casntemplt.demo.service.impl;
 
 import java.util.List;
 
-import com.skp.casntemplt.model.Employee;
+import com.skp.casntemplt.models.Employee;
+
 
 
 /**
@@ -22,5 +23,9 @@ public interface EmployeeService {
 
 	 
 	public int updateEmployeeDetails(Employee empToUpdate);
+	
+	public String insertAnEmployee(Employee employee);
+	
+	public String deleteEmployeeDetails(int empId);
 
 }

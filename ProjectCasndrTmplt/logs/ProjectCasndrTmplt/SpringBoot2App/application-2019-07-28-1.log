@@ -1,0 +1,33 @@
+2019-07-28T22:45:09.795+0530 INFO 		Logging After For Service API:-insertAnEmployee
+2019-07-28T22:45:09.801+0530 INFO        *****--------------------*****
+2019-07-28T22:45:09.801+0530 INFO        Total Execution Time For API(measure:-78secs)
+2019-07-28T22:45:09.801+0530 INFO 		Logging After For Controller API:-insertAnEmployeeDetails
+2019-07-28T22:45:09.801+0530 INFO 		*****--------------------*****
+2019-07-28T22:46:01.917+0530 INFO 		*****--------------------*****
+2019-07-28T22:46:01.918+0530 INFO 		Logging Before For Controller API:-insertEmployeeDetails
+2019-07-28T22:46:01.918+0530 INFO 		Loggging Arguements:-[[Employee [id=10, firstName=Ishan, lastName=Kashyap], Employee [id=11, firstName=Atanu, lastName=Kashyap]]]
+2019-07-28T22:46:12.729+0530 INFO        *****--------------------*****
+2019-07-28T22:46:12.749+0530 INFO 		Logging Before For Service API:-insertEmployeeDetails
+2019-07-28T22:46:12.768+0530 INFO 		Loggging Arguements:-[[Employee [id=10, firstName=Ishan, lastName=Kashyap], Employee [id=11, firstName=Atanu, lastName=Kashyap]]]
+2019-07-28T22:53:03.823+0530 INFO Starting ProjectCasndrTmpltApplication on DESKTOP-2EJ6TNL with PID 21036 (E:\sts_git_repo\ProjectCasndrTmplt\target\classes started by user in E:\sts_git_repo\ProjectCasndrTmplt)
+2019-07-28T22:53:03.830+0530 INFO No active profile set, falling back to default profiles: default
+2019-07-28T22:53:10.687+0530 INFO Started ProjectCasndrTmpltApplication in 7.393 seconds (JVM running for 9.81)
+2019-07-28T22:54:13.330+0530 INFO 		*****--------------------*****
+2019-07-28T22:54:13.334+0530 INFO 		Logging Before For Controller API:-getAllEmployeeDetails
+2019-07-28T22:54:13.335+0530 INFO 		Loggging Arguements:-[]
+2019-07-28T22:54:13.387+0530 INFO        *****--------------------*****
+2019-07-28T22:54:13.388+0530 INFO 		Logging Before For Service API:-getAllEmployeeDetails
+2019-07-28T22:54:13.388+0530 INFO 		Loggging Arguements:-[]
+2019-07-28T22:55:27.811+0530 INFO Starting ProjectCasndrTmpltApplication on DESKTOP-2EJ6TNL with PID 12064 (E:\sts_git_repo\ProjectCasndrTmplt\target\classes started by user in E:\sts_git_repo\ProjectCasndrTmplt)
+2019-07-28T22:55:27.818+0530 INFO No active profile set, falling back to default profiles: default
+2019-07-28T22:55:33.538+0530 INFO Started ProjectCasndrTmpltApplication in 6.045 seconds (JVM running for 8.036)
+2019-07-28T22:55:58.307+0530 INFO 		*****--------------------*****
+2019-07-28T22:55:58.309+0530 INFO 		Logging Before For Controller API:-getAllEmployeeDetails
+2019-07-28T22:55:58.310+0530 INFO 		Loggging Arguements:-[]
+2019-07-28T22:55:58.332+0530 INFO        *****--------------------*****
+2019-07-28T22:55:58.332+0530 INFO 		Logging Before For Service API:-getAllEmployeeDetails
+2019-07-28T22:55:58.332+0530 INFO 		Loggging Arguements:-[]
+2019-07-28T22:56:01.571+0530 INFO 		Logging After For Service API:-getAllEmployeeDetails
+2019-07-28T22:56:01.572+0530 INFO        *****--------------------*****
+2019-07-28T22:56:01.573+0530 INFO        Total Execution Time For API(measure:-3secs)
+2019-07-28T22:56:01.574+0530 INFO 		Logging After For Controller API:-getAllEmployeeDetails
