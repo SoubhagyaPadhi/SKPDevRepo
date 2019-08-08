@@ -27,7 +27,8 @@ public class LoggingAspect {
 		return result;
 	}
 	
-	@Around("execution(* com.skp.casntemplt.demo.service.impl.* .*(..))")
+	//@Around("execution(* com.skp.casntemplt.demo.service.impl.* .*(..))")
+	@Around("execution(* com.skp.casntemplt.demo.service.impl.EmployeeServiceImpl.*(..))")
 	public Object logBeforeServiceApi(ProceedingJoinPoint jointPoint) throws Throwable{
 		LOGGER.info("       *****--------------------*****");
 		LOGGER.info("		Logging Before For Service API:-"+jointPoint.getSignature().getName());

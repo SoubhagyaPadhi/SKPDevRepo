@@ -41,27 +41,59 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+			<version>2.0.14.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-jwt</artifactId>
+			<version>1.0.8.RELEASE</version>
+		</dependency>
 		<!-- exclude logback , add log4j2 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-log4j2</artifactId>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations -->
 		<dependency>
 			<groupId>io.swagger</groupId>
 			<artifactId>swagger-annotations</artifactId>
 			<version>1.5.20</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-spring</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
@@ -72,46 +104,18 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- <plugin>
-				<groupId>com.github.kongchen</groupId>
-				<artifactId>swagger-maven-plugin</artifactId>
-				<version>3.1.5</version>
-				<configuration>
-					<apiSources>
-						<apiSource>
-							<springmvc>false</springmvc>
-							<locations>
-								<location>com.skp.casntemplt.service.impl</location>
-								<location>com.skp.casntemplt.model</location>
-							</locations>
-							<schemes>http,https</schemes>
-							<host>localhost</host>
-							<basePath>/api</basePath>
-							<info>
-								<title>Swagger Maven Plugin :Employee Demo</title>
-								<version>1.0.0</version>
-								<description>Initial Draft Of Emplyee Services Contract</description>
-								<license>
-									<url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-									<name>Apache 2.0</name>
-								</license>
-							</info>
-							<outputPath>${basedir}/generated/document.html</outputPath>
-							<swaggerDirectory>generated/swagger-ui</swaggerDirectory>
-							<swaggerFileName>employee</swaggerFileName>
-							<outputFormats>yaml</outputFormats>
-						</apiSource>
-					</apiSources>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>compile</phase>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin> -->
+			<!-- <plugin> <groupId>com.github.kongchen</groupId> <artifactId>swagger-maven-plugin</artifactId> 
+				<version>3.1.5</version> <configuration> <apiSources> <apiSource> <springmvc>false</springmvc> 
+				<locations> <location>com.skp.casntemplt.service.impl</location> <location>com.skp.casntemplt.model</location> 
+				</locations> <schemes>http,https</schemes> <host>localhost</host> <basePath>/api</basePath> 
+				<info> <title>Swagger Maven Plugin :Employee Demo</title> <version>1.0.0</version> 
+				<description>Initial Draft Of Emplyee Services Contract</description> <license> 
+				<url>http://www.apache.org/licenses/LICENSE-2.0.html</url> <name>Apache 2.0</name> 
+				</license> </info> <outputPath>${basedir}/generated/document.html</outputPath> 
+				<swaggerDirectory>generated/swagger-ui</swaggerDirectory> <swaggerFileName>employee</swaggerFileName> 
+				<outputFormats>yaml</outputFormats> </apiSource> </apiSources> </configuration> 
+				<executions> <execution> <phase>compile</phase> <goals> <goal>generate</goal> 
+				</goals> </execution> </executions> </plugin> -->
 		</plugins>
 	</build>
 	<repositories>
