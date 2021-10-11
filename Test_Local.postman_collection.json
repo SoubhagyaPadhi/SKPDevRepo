@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "dc937156-492b-42db-9adc-e1f90a3ab113",
+		"name": "Test_Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/home",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzM5OTQ1NTAsInVzZXJfbmFtZSI6ImFkbWluQHNrcGRlbW8iLCJhdXRob3JpdGllcyI6WyJBRE1JTiJdLCJqdGkiOiJ6aVk2YXNiY3B1Z3dvbnhMc3hidFFmWlByaGMiLCJjbGllbnRfaWQiOiJza3BkZW1vIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl19.IfV_PnbqM6XHhW7idFOK3RoEd6o8pVPQu-03Lcr3wMK1yb-P8kHcjyWAZ6SO5mqwAgJEXyhZ7Z-DbuvbA8JSEW0iRUWmHDTToR65H2Y2vUfFKaKTZ9ery3LT6HCGHl3IMbZ6L8NoY7j0cVKG7qWvw-TUekR5m2zCcA1yUbVG6EHoGuychVgFngmGECGdq8157-TjJFAr0w0ASuCzNxte_kxRbL2D2BbF0P89GPyJ37JXb9p7CbBw2ebi_EY668g7KHljOzFji6JO0TI3OqBZa_6cgkAVs7QRFZrCas2Bi36bg516yayc1cGoXAWlECDfBOX6It2A9-BUgYj4KcGcoA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/home",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/oauth/token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "skpdemo-secret-key",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skpdemo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "admin@skpdemo",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/oauth/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"oauth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
